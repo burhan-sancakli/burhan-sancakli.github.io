@@ -15,13 +15,13 @@ const INFO = {
 	homepage: {
 		title: "Senior Full-Stack Software Engineer specializing in scalable web applications.",
 		description:
-			"I am a Senior Full-Stack Software Engineer with a strong background in building highly interactive web applications, internal CRM systems, and automation solutions. I have experience with a wide stack including .NET Core, Python (Django), Node.js (Express, Nest), and React/Next.js. I enjoy solving complex problems like web scraping and system integrations.",
+			"I am a Senior Full-Stack Software Engineer with a strong background in building highly interactive web applications, internal CRM systems, and automation solutions. I have experience with a wide stack including .NET Core, SQL, RabbitMQ, Entity Framework, PHP, Angular, Python (Django), Node.js (Express, Nest), and React/Next.js. I enjoy solving complex problems like web scraping and system integrations.",
 	},
 
 	about: {
 		title: "I’m Burhan Sancakli. I live in Istanbul, Turkey.",
 		description:
-			"I've worked on a variety of projects ranging from Ecommerce web scrapers to FinTech applications. I am proficient in both backend and frontend technologies, and I have a keen interest in database optimization and cloud-based deployments. I am always open to new challenges and opportunities to apply my skills in .NET, Python, and JavaScript ecosystems.",
+			"I've worked on a variety of projects ranging from Ecommerce web scrapers to FinTech applications. I am proficient in both backend and frontend technologies, and I have a keen interest in database optimization and cloud-based deployments. I am always open to new challenges and opportunities to apply my skills in .NET, SQL, RabbitMQ, Entity Framework, PHP, Angular, Python (Django), Node.js (Express, Nest), and React/Next.js ecosystems.",
 	},
 
 	articles: {
@@ -31,6 +31,16 @@ const INFO = {
 	},
 
 	projects: [
+
+		{
+			title: "Ecommerce Web Scrapers and API Integrations",
+			description:
+				"Developed web scrapers and API integrations for multiple Ecommerce websites to gather competitive intelligence and big data using Python and .NET. Optimized data flow using MSSQL, SSAS, SSIS, DAX and RabbitMQ.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "http://commersee.com/",
+		},
+
 		{
 			title: "Smartbill Integration",
 			description:
@@ -41,18 +51,9 @@ const INFO = {
 		},
 
 		{
-			title: "Ecommerce Web Scrapers",
-			description:
-				"Developed web scrapers for multiple Ecommerce websites to gather competitive intelligence and market data.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/Kenansezginbas/trendyol-scraper.git",
-		},
-
-		{
 			title: "Internal CRM Application",
 			description:
-				"Maintained and further developed internal CRM applications to streamline business operations and customer management.",
+				"Maintained and further developed internal PHP, Angular, Ionic based CRM applications to streamline business operations and customer management.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com/Kenansezginbas/iris.git",
